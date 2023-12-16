@@ -24,7 +24,7 @@ def hello_world():  # put application's code here
     return "Hello Tour de App! Edited Twice :), Hello sfbdoniTda"
 
 @app.route('/api')
-def api():
+def api(methods = ["GET", "POST"]):
     return jsonify({"secret":"The cake is a lie"})
 
 if __name__ == '__main__':
