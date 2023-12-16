@@ -17,3 +17,4 @@ EXPOSE 80
 
 CMD ["./start.sh"]
 
+RUN chmod +x start.sh
