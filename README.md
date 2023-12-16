@@ -43,7 +43,6 @@ docker build . -t tda-flask
 docker run -p 8080:80 -v ${PWD}:/app tda-flask
 ```
 
-
 Aplikace bude přístupná na `http://127.0.0.1:8080`
 
 ## Virtuální prostředí a správa balíčků
