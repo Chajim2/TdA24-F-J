@@ -28,4 +28,4 @@ def api(methods = ["GET", "POST"]):
     return jsonify({"secret":"The cake is a lie"})
 
 if __name__ == '__main__':
-    app.run()
+    app.run(debug = True)
